@@ -1,7 +1,8 @@
-# Ignore everything except what we need
+# Ignore everything in root except specific files
 *
 !.gitignore
 !README.md
 !app/
-app/*
-!app/.nojekyll
+
+# Allow all files in app folder to be tracked
+!app/**
