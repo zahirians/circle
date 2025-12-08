@@ -1,0 +1,7 @@
+# Ignore everything except what we need
+*
+!.gitignore
+!README.md
+!app/
+app/*
+!app/.nojekyll
